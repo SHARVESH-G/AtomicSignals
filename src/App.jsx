@@ -15,7 +15,7 @@ function App() {
                 summary="Very good"
                 onSubmit={() => alert("Response submitted!")}
                 responseText2="Happy  to hear that! 😊"
-                responseText="Thanks! I'll try to improve further 👍"
+                responseText="Thanks! I'll try to improve further sssssssssssss0000000000000000000000000000000👍"
 
             />
         </div>
