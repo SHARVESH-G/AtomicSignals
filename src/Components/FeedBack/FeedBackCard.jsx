@@ -5,7 +5,7 @@ import UserProfile from "./Fragments/UserProfile";
 import FeedbackReason from "./Fragments/FeedbackReason";
 import FeedbackText from "./Fragments/FeedbackText";
 import FeedbackLabel from "./Fragments/FeedbackLabel";
-import SubmitButton from "./Fragments/SubmitButton";
+import SubmitButton from "../Buttons/SubmitButton";
 import ResponseSection from "./Fragments/ResponseSection";
 
 const Container = styled(Box)(({theme}) => ({
