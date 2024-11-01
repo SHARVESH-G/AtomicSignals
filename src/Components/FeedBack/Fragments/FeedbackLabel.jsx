@@ -37,6 +37,7 @@ const UserFeed2 = styled(Typography)(({ theme }) => ({
 const FeedAvatar = styled(Avatar)(({ theme }) => ({
     height: '24px',
     width: "24px",
+    backgroundColor:'green',
     margin: "0px 8px 0px 0px"
 }));
 
@@ -50,7 +51,7 @@ const FeedbackLabel = ({ icon, summary, additionalInfo }) => {
                 onMouseLeave={() => setIsHovered(false)}
                 isHovered={isHovered}
             >
-                <FeedAvatar src={icon || 'defaultIcon.png'} alt="Feedback Icon" />
+                <FeedAvatar alt={icon || 'E'} src={icon}/>
                 {isHovered && (
                     <UserFeed2>{additionalInfo || "info"}</UserFeed2>
                 )}

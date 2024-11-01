@@ -41,12 +41,14 @@ const FeedbackCard = ({
     avatarSrc, 
     name, 
     date, 
+    icon,
     reason, 
     feedbackText, 
     additionalInfo, 
     summary,
     responseText,
-    responseText2
+    responseText2,
+    submitButtonText
 }) => {
     const [state, setState] = useState({
         isSubmitted: false,
@@ -70,7 +72,7 @@ const FeedbackCard = ({
                         name={name} 
                         date={date} 
                     />
-                    <FeedbackLabel icon={avatarSrc} summary={summary} additionalInfo={additionalInfo} />
+                    <FeedbackLabel icon={icon} summary={summary} additionalInfo={additionalInfo} />
                 </UserProfileContainer>
                 
                 <FeedbackReason reason={reason} />
@@ -80,7 +82,7 @@ const FeedbackCard = ({
                 <UserResponseHolder>
                     {!state.isSubmitted && (
                         <ButtonHolder>
-                            <SubmitButton onClick={handleSubmit} />
+                            <SubmitButton onClick={handleSubmit} buttonText={submitButtonText}/>
                         </ButtonHolder>
                     )}
                     

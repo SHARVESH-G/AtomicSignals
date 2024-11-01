@@ -10,10 +10,8 @@ const StyledButton = styled(Button)({
   gap: "8px"
 });
 
-const SubmitButton = ({ onClick }) => (
-  <StyledButton onClick={onClick}>
-    Submit your response
-  </StyledButton>
+const SubmitButton = ({ onClick,buttonText }) => (
+  <StyledButton onClick={onClick}>{buttonText}</StyledButton>
 );
 
 export default SubmitButton;
