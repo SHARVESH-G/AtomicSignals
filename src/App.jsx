@@ -1,10 +1,10 @@
 // App.js
-import FeedBackCard from './Components/FeedBack/FeedBackCard';
+import FeedbackCard from './components/feedBack/feedbackCard';
 
 function App() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-            <FeedBackCard 
+            <FeedbackCard 
                 avatarSrc="https://i.pravatar.cc/300" 
                 name="Steven" 
                 date="31 Jan 2023, 01:31 PM" 

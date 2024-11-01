@@ -1,7 +1,7 @@
 // UserProfile.js
 import { Box, Avatar, Typography, ThemeProvider } from "@mui/material";
 import styled from "@emotion/styled";
-import lightTheme from "../../../Theme/LightTheme";
+import lightTheme from "../../../theme/lightTheme";
 
 const ProfileContainer = styled(Box)({
     display: "flex",

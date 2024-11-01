@@ -1,6 +1,6 @@
 import { Avatar, Box, Typography } from "@mui/material";
 import styled from "@emotion/styled";
-import lightTheme from "../../../Theme/LightTheme";
+import lightTheme from "../../../theme/lightTheme";
 import { ThemeProvider } from "@mui/material/styles";
 import { useState } from "react";
 

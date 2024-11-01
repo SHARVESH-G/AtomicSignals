@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Box, styled, ThemeProvider } from "@mui/material";
-import LightTheme from '../../Theme/LightTheme';
-import UserProfile from "./Fragments/UserProfile";
-import FeedbackReason from "./Fragments/FeedbackReason";
-import FeedbackText from "./Fragments/FeedbackText";
-import FeedbackLabel from "./Fragments/FeedbackLabel";
-import SubmitButton from "../Buttons/SubmitButton";
-import ResponseSection from "./Fragments/ResponseSection";
+import LightTheme from '../../theme/lightTheme';
+import UserProfile from "./fragments/userProfile";
+import FeedbackReason from "./fragments/feedbackReason";
+import FeedbackText from "./fragments/feedbackText";
+import FeedbackLabel from "./fragments/feedbackLabel";
+import SubmitButton from "../buttons/submitButton";
+import ResponseSection from "./fragments/responseSection";
 
 const Container = styled(Box)(({theme}) => ({
     width: "100%",
@@ -37,7 +37,7 @@ const UserResponseHolder = styled(Box)(({theme})=>({
     width:"100%",
 }))
 
-const FeedBackCard = ({ 
+const FeedbackCard = ({ 
     avatarSrc, 
     name, 
     date, 
@@ -99,4 +99,4 @@ const FeedBackCard = ({
     );
 };
 
-export default FeedBackCard;
+export default FeedbackCard;

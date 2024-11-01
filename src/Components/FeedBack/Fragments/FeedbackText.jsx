@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { ThemeProvider, Typography } from "@mui/material";
-import lightTheme from "../../../Theme/LightTheme";
+import lightTheme from "../../../theme/lightTheme";
 
 const UserSecFeed = styled(Typography)(({theme})=>({
     fontSize:'14px',
