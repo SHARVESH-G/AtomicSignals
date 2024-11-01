@@ -55,7 +55,7 @@ const FeedbackLabel = ({ icon, summary, additionalInfo }) => {
                 {isHovered && (
                     <UserFeed2>{additionalInfo || "info"}</UserFeed2>
                 )}
-                <UserFeed variant="body2">{summary || "No summary available"}</UserFeed> {/* Corrected this line */}
+                <UserFeed variant="body2">{summary || "No summary available"}</UserFeed>
             </LabelContainer>
         </ThemeProvider>
     );
